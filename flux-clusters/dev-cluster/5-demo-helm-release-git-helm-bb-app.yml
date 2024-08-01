@@ -18,10 +18,10 @@ spec:
     labels:
       env: dev
       name: block-bluster
-      version: 7.5.0
+      version: 7.5.1
     namespace:
       name: 5-demo
-    replicaCount: 3
+    replicaCount: 1
     service:
       nodePort: 30005
       type: NodePort
